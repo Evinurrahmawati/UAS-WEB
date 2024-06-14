@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #49c11d;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.main-nav .logo img {
+    width: 100px;
+}
+
+.search-form {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-form button:hover {
+    background-color: #45a049;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-links .login {
+    padding: 5px 10px;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+}
+
+.main-content {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.search-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-filters select, .search-filters input, .search-filters button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-filters .set-button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.kost-image {
+    width: 100px;
+    height: auto;
+}
